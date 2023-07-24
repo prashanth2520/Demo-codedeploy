@@ -1,0 +1,17 @@
+version: 0.0
+os: ubuntu
+files:
+  - source: /
+    destination: /root/opt/laravel/
+hooks:
+  BeforeInstall:
+    - location: deploy/beforeinstall.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: deploy/afterinstall.sh
+      timeout: 300
+      runas: root   
+ 
+
+
