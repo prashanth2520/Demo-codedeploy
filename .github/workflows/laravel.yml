@@ -23,7 +23,7 @@ jobs:
 
       - name: Build .zip archive
         run: |
-          zip -r code_file.zip .
+          zip -r source_file.zip .
           echo "Successfully created source_file.zip"
 
       - name: Upload .zip to S3
