@@ -28,7 +28,7 @@ jobs:
 
       - name: Upload .zip to S3
         run: |
-          aws s3 cp code_file.zip s3://demoaddval/source_file.zip
+          aws s3 cp source_file.zip s3://demoaddval/source_file.zip
           echo "Uploaded source_file.zip to S3 bucket"
           
           
