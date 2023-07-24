@@ -24,12 +24,12 @@ jobs:
       - name: Build .zip archive
         run: |
           zip -r code_file.zip .
-          echo "Successfully created code_file.zip"
+          echo "Successfully created source_file.zip"
 
       - name: Upload .zip to S3
         run: |
-          aws s3 cp code_file.zip s3://demo-code-deploy190723/code_file.zip
-          echo "Uploaded code_file.zip to S3 bucket"
+          aws s3 cp code_file.zip s3://demoaddval/source_file.zip
+          echo "Uploaded source_file.zip to S3 bucket"
           
           
       - name: Trigger the code-deploy service
