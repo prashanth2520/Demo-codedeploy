@@ -1,5 +1,4 @@
 #!/bin/bash/
-cd /opt/laravel/
-sudo mkdir demo001
+sudo apt update
 
 
