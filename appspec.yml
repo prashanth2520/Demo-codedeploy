@@ -2,7 +2,7 @@ version: 0.0
 os: ubuntu
 files:
   - source: /
-    destination: /home/kevin/opt/laravel/
+    destination: /opt/laravel/
 hooks:
   BeforeInstall:
     - location: deploy/beforeinstall.sh
