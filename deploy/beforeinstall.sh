@@ -1,3 +1,3 @@
-/opt/laravel/Demo-codedeploy && git pull
+cd /opt/laravel/Demo-codedeploy && git pull
 
 
