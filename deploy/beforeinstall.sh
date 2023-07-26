@@ -1,3 +1,2 @@
-sudo service nginx restart
-
+git pull
 
