@@ -3,7 +3,7 @@ os: linux
 overwrite: true
 files:
   - source: /
-    destination: /home/ubuntu/opt/laravel/
+    destination: /home/root/opt/laravel/
 hooks:
   BeforeInstall:
     - location: deploy/beforeinstall.sh
