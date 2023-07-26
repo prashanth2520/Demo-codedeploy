@@ -1,3 +1,3 @@
-cd /home/kevin/opt/laravel/Demo-codedeploy && git pull
+cd /home/ubuntu/opt/laravel/ && git pull
 
 
