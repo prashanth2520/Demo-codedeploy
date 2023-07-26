@@ -1,3 +1,5 @@
-cd /home/ubuntu/opt/laravel/ && git pull
+#!/bin/bash
+cd /opt/laravel/
+git pull
 
 
